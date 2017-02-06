@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|Oswald:300,400,700|Roboto+Slab:100,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|Oswald:300,400,700');
 
 body {
     background: #eeeeee url(../img/noisy_grid.png) round;
@@ -20,9 +20,8 @@ body {
     font-family: 'Oswald', 'Merriweather', serif;
     font-size: 20px;
     color: #ffffff;
-    opacity: 1;
+    opacity: 0.9;
     font-weight: 400;
-
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -36,13 +35,14 @@ body {
     color: #ffffff;
     font-size: 20px;
     font-weight: 400;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 .navbar-default .navbar-brand {
     font-family: 'Oswald', 'Merriweather', serif;
     color: #ffffff;
     font-size: 16px;
+    opacity: 0.9;
 }
 
 .navbar-default .navbar-brand:hover {
@@ -63,7 +63,7 @@ li > a > i.fa-envelope {
 
 p {
     /*font-family: 'Roboto Slab', Georgia, serif;*/
-    font-family: 'Roboto Slab', 'Merriweather', serif;
+    font-family: 'Cambria', 'Charter', 'Merriweather', serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.7em;
@@ -71,7 +71,7 @@ p {
 
 label {
     /*font-family: 'Roboto Slab', Georgia, serif;*/
-    font-family: 'Oswald', 'Merriweather', serif;
+    font-family: 'Calibri', 'Oswald', 'Merriweather', serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1em;
@@ -89,13 +89,13 @@ h3 {
 }
 
 h4 {
-    font-family: 'Roboto Slab', 'Merriweather', serif;
+    font-family: 'Cambria', 'Charter', 'Merriweather', serif;
     font-size: 18px;
     line-height: 1.5em;
 }
 
 h5 {
-    font-family: 'Roboto Slab', 'Merriweather', serif;
+    font-family: 'Cambria', 'Charter', 'Merriweather', serif;
     font-size: 16px;
     line-height: 1.5em;
 }
@@ -107,7 +107,7 @@ a {
 
 ul > li {
     /*font-family: 'Roboto Slab', Georgia, serif;*/
-    font-family: 'Roboto Slab', 'Merriweather', serif;
+    font-family: 'Cambria', 'Charter', 'Merriweather', serif;
     font-size: 20px;
     line-height: 1.7em;
     font-weight: 400;
